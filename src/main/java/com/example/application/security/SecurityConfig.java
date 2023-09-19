@@ -26,6 +26,7 @@ public class SecurityConfig extends VaadinWebSecurity {
         setLoginView(http, LoginView.class); 
     }
 
+
     @Bean
     public UserDetailsService users() {
         UserDetails user = User.builder()
