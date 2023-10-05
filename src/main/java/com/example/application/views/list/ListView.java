@@ -110,7 +110,4 @@ public class ListView extends VerticalLayout {
         form.setVisible(false);
         removeClassName("editing");
     }
-
-
-
 }
